@@ -85,3 +85,4 @@ function displayTasks() {
     });
 }
 
+window.addEventListener("load", loadTasks);
