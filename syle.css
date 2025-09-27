@@ -1,0 +1,92 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff0f6;
+  color: #4a154b;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #d63384;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #9c27b0;
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+input,
+select {
+  padding: 10px;
+  margin: 8px;
+  border: 2px solid #f8bbd0;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  background: #fff;
+  color: #4a154b;
+  transition: 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #d63384;
+  box-shadow: 0 0 6px #f48fb1;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#task-list li {
+  background: #fff;
+  border: 2px solid #f8bbd0;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+
+#task-list li:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#task-list select {
+  margin-left: 15px;
+  border-color: #ec407a;
+  background: #fff0f6;
+}
+
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background: #ec407a;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #d81b60;
+  transform: scale(1.05);
+}
